@@ -1,9 +1,9 @@
 import random
 
 def jogo_palavras():
-    animais = ['leão', 'tigre', 'elefante', 'girafa', 'zebra', 'macaco', 'panda', 'hipopotamo', 'leopardo', 'canguru', 'urso', 'coelho', 'cavalo', 'pinguim', 'lobo']
+    esportes = ['futebol', 'basquete', 'natação', 'tênis', 'vôlei', 'corrida', 'rugby', 'golfe', 'ciclismo', 'boxe', 'esgrima', 'handebol', 'karate', 'skate', 'surfe']
     
-    lista_palavras = animais
+    lista_palavras = esportes
     
     lista_embaralhada = lista_palavras[:]
     random.shuffle(lista_embaralhada)
